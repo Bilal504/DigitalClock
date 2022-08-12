@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     font-family: sans-serif;
     display: flex;
@@ -8,35 +8,35 @@ body{
     justify-content: center;
     overflow: hidden;
     background: url("images/img2.jpg");
-    
+
 }
 
-h2{
-    
+h2 {
+
     text-align: center;
     letter-spacing: 2vh;
     text-transform: capitalize;
     text-decoration-color: azure;
     color: ivory;
-    text-shadow: 50px,50px,50px rgb(41, 41, 41);
+    text-shadow: 50px, 50px, 50px rgb(41, 41, 41);
 
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.clock{
+.clock {
     display: flex;
-    
+
 }
 
-.clock div{
+.clock div {
     margin: 5px;
     position: relative;
 }
 
 
 
-.clock span{
+.clock span {
     background: rgb(25, 68, 73);
     opacity: .8;
     color: lavender;
@@ -45,11 +45,11 @@ h2{
     display: flex;
     align-items: center;
     font-size: 30px;
-    justify-content: center; 
-} 
+    justify-content: center;
+}
 
 
-.clock .text{
+.clock .text {
     font-size: 10px;
 
     height: 30px;
@@ -60,7 +60,7 @@ h2{
 }
 
 
-.clock #ampm{
+.clock #ampm {
     height: 30px;
     bottom: 0;
     position: absolute;
